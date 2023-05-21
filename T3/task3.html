@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task3</title>
+    <style>
+      .task3 {
+        /* box-sizing: border-box; */
+        background-color: rgb(231, 235, 239);
+      }
+      .cont {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 100px 350px;
+      }
+      .c1 {
+        border-radius: 10px 10px 0px 0px;
+        background-color: white;
+        height: 200px;
+      }
+      .c2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 250px;
+      }
+      #box2 {
+        border-radius: 0px 0px 0px 10px;
+        width: 50%;
+        background-color: rgb(101, 210, 247);
+      }
+      #box3 {
+        width: 50%;
+        border-radius: 0px 00px 10px 0px;
+        background-color: rgb(160, 255, 234);
+      }
+      #p1{
+      margin: 30px;
+      font-size: 20px;
+      color: rgb(4, 181, 240);
+      font-weight: 545;
+      }
+      #p2{
+        margin-left: 30px;
+        font-weight: 1000;
+        color: greenyellow;
+      }
+      #p3{
+        margin-left: 30px;
+        color: rgb(12, 107, 171);
+      }
+      
+      .btn{
+        position: relative;
+        top: 200px;
+        left: 55px;
+        border-radius: 5px;
+        width: 200px;
+        height: 30px;
+        border: 2px solid greenyellow;
+        background-color: greenyellow;
+        font-weight: bold;
+        color: white;
+      }
+      .pofbox2{
+        color: white;
+        margin-left: 60px;
+      }
+      .pofbox3{
+        color: white;
+        font-weight: bold;
+        margin-left: 50px;
+      }
+    </style>
+  </head>
+  <body class="task3">
+    <div class="cont">
+      <div class="c1">
+        <p id="p1">Join our community</p>
+        <p id="p2">30-day, hassle-free money back guarantee</p>
+        <p id="p3">
+          Gain access to our full library of tutorials along with expert code
+          reviews. <br> Perfect for any developers who are serious about honing their
+          skills.
+        </p>
+      </div>
+      <div class="c2">
+        <div id="box2">
+            <button class="btn">Sign Up
+                <i class="fa fa-caret-down"></i>
+              </button>
+          <p class="pofbox2" id="p4">Monthly Subscription</p>
+          <p class="pofbox2" id="p5">$29</p>
+          <p class="pofbox2" id="p6">per month</p>
+          <p class="pofbox2" id="p7">Full access for less than $1 a day</p>
+        </div>
+        <div id="box3">
+          <p class="pofbox3" id="p8">Why us?<br /><br /></p>
+          <p class="pofbox3" id="p9">
+            Tutorials by industry experts<br />
+            Peer & expertscode review<br />
+            Coding exercises<br />
+            Access to our GitHub repos<br />
+            Community forum<br />
+            Flashcard decks<br />
+            New videos every week
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

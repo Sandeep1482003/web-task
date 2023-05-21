@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task 2</title>
+    <style>
+      .main {
+        background-color: aliceblue;
+        margin: -13px;
+      }
+      #headcont {
+        padding: 25px;
+        text-align: center;
+      }
+      #p1 {
+        font-size: 20px;
+        margin: 0;
+        font-weight: 0;
+      }
+      #p2 {
+        margin: 0;
+        font-size: 30px;
+        font-weight: 1000;
+      }
+      #p3 {
+        margin: 0;
+        font-weight: 300;
+        padding: 10px;
+      }
+      .container {
+        margin-top: -60px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      .item {
+        margin: 0px;
+        padding: 19px;
+        width: 25%;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      .central {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 200px;
+        margin: 10px;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 42px;
+      }
+      .box1 {
+        border-top: 3px solid rgb(51, 238, 219);
+        border-radius: 10px;
+        height: 200px;
+        background-color: white;
+        /* border: 3px dotted black; */
+      }
+      #box2 {
+        border-top: 3px solid rgb(220, 26, 19);
+      }
+      #box3 {
+        border-top: 3px solid rgb(169, 143, 11);
+      }
+      .box4 {
+        border-top: 3px solid rgb(67, 67, 251);
+        border-radius: 10px;
+        height: 200px;
+        background-color: white;
+      }
+      .heading{
+        margin-left: 20px;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      .sub{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+      }
+      #calc{
+        position: relative;
+        top: 160px;
+        left: 290px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div id="headcont">
+        <p id="p1">Reliable, efficient delivery</p>
+        <p id="p2">Powered by Technology</p>
+        <p id="p3">
+          Our Aritificial Intelligence powered tools use millions of project
+          <br />
+          data points to ensure that your project is successful
+        </p>
+      </div>
+      <div class="container">
+        <div class="item" id="i1">
+          <div class="box1">
+            <img src="supervisor.jpg" width="25px" id="calc">
+            <p class="heading" id="p4">Supervisor</p>
+            <p class="sub" id="p5">Montiors activity to identify project roadblocks</p>
+          </div>
+        </div>
+        <div class="item" id="i2">
+          <div class="central" id="box2">
+            <img src="team builer.jpg" width="25px" id="calc">
+            <p class="heading" id="p6">Team Builder</p>
+            <p class="sub" id="p7">Scans our talent network to create the optimal team for your project</p>
+          </div>
+          <div class="central" id="box3">
+            <img src="karma.jpg" width="25px"  id="calc" >
+            <p class="heading" id="p8">Karma</p>
+            <p class="sub" id="p9">Regularly evaluates our talent to ensure quality</p>
+          </div>
+        </div>
+        <div class="item" id="i3">
+          <div class="box4">
+            <img src="calculator.jpg" width="25px" id="calc">
+            <p class="heading" id="p10">Calculator</p>
+            <p class="sub" id="p11">Uses data from past projects to provide better delivery estimates</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
